@@ -5,7 +5,7 @@ use Exception;
 
 class APIKeyEncryption
 {
-    private const ENCRYPTION_CIPHER = 'aes-256-cbc';
+    private const ENCRYPTION_CIPHER = 'AES-256-CBC';
     private const BASE64_PREFIX = 'base64:';
 
     public function secretConfigExists(): bool
