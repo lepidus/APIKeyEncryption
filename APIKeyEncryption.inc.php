@@ -1,6 +1,5 @@
 <?php
 
-use PKP\config\Config;
 use Illuminate\Encryption\Encrypter;
 use Exception;
 
